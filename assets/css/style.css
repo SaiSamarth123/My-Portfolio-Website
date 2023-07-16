@@ -139,6 +139,80 @@ header .navbar ul li a:hover {
     padding: 0.5rem 0;
 }
 
+.switch {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+}
+
+.flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+    box-shadow:
+        inset 4px 4px 4px rgb(255, 255, 255),
+        inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+    background-color: rgb(54, 69, 79);
+    transition: 0.3s;
+}
+
+.moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+.dark .flicker {
+    transform: translateX(40px);
+}
+
+.dark>* {
+    color: rgb(255, 255, 255);
+}
+
+.dark {
+    background-color: #263238;
+    transition: 0.3s;
+}
+
+
+.dark body {
+    background-color: #263238;
+    color: #eceff1;
+}
+
+.dark header {
+    background-color: #000000;
+}
+
+.dark header .logo {
+    color: #CDCDCD;
+}
+
+.dark header .navbar ul li a {
+    color: #CDCDCD;
+}
+
+.dark header .navbar ul li a.active,
+.dark header .navbar ul li a:hover {
+    color: #5AFE73;
+    border-bottom: 0.2rem solid #5AFE73;
+}
+
 /* navbar ends */
 
 /* hamburger icon starts*/
@@ -314,6 +388,32 @@ header .navbar ul li a:hover {
     transform: translateX(5px);
 }
 
+.dark .home .content h2 {
+    color: #CDCDCD;
+}
+
+.dark .home .content h2 span {
+    color: #5AFE73;
+}
+
+.dark .home .content p {
+    color: #CDCDCD;
+}
+
+.dark .home .content p span {
+    color: #5AFE73;
+}
+
+.dark .home .btn {
+    background: #5AFE73;
+    box-shadow: 0px 5px 18px rgba(90, 254, 115, 0.6);
+    color: #000000;
+}
+
+.dark .home .btn:hover {
+    background: #3cb568;
+}
+
 /* social icons start */
 .socials {
     position: relative;
@@ -372,6 +472,38 @@ header .navbar ul li a:hover {
 
 .social-icons a.instagram:hover {
     background-color: #ee00da;
+}
+
+.dark .socials .social-icons a {
+    color: #CDCDCD;
+    background-color: #000000;
+}
+
+.dark .social-icons a:active,
+.dark .social-icons a:focus,
+.dark .social-icons a:hover {
+    color: #000000;
+    background-color: #5AFE73;
+}
+
+.dark .social-icons a.github:hover {
+    background-color: #5AFE73;
+}
+
+.dark .social-icons a.twitter:hover {
+    background-color: #5AFE73;
+}
+
+.dark .social-icons a.linkedin:hover {
+    background-color: #5AFE73;
+}
+
+.dark .social-icons a.dev:hover {
+    background-color: #5AFE73;
+}
+
+.dark .social-icons a.instagram:hover {
+    background-color: #5AFE73;
 }
 
 /* social icons end */
@@ -510,6 +642,37 @@ header .navbar ul li a:hover {
     transform: translateX(5px);
 }
 
+.dark .about {
+    background: #000000;
+}
+
+.dark .about .row .content h3 {
+    color: #CDCDCD;
+}
+
+.dark .about .row .content .tag {
+    color: #5AFE73;
+}
+
+.dark .about .row .content p {
+    color: #CDCDCD;
+}
+
+.dark .about .row .content .box-container .box p span {
+    color: #5AFE73;
+}
+
+.dark .resumebtn .btn {
+    color: #000000;
+    background: #5AFE73;
+    box-shadow: 0px 5px 10px rgba(95, 254, 115, 0.6);
+}
+
+.dark .resumebtn .btn:hover {
+    background: #000000;
+    color: #5AFE73;
+}
+
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
     .about .row .image {
@@ -601,6 +764,39 @@ header .navbar ul li a:hover {
     font-weight: 500;
     font-family: "Poppins";
     margin-left: 0.5rem;
+}
+
+.dark .skills {
+    background: #000000;
+}
+
+.dark .skills h2 {
+    color: #CDCDCD;
+}
+
+.dark .skills .heading span {
+    color: #5AFE73;
+}
+
+.dark .skills .container {
+    background: #000000;
+    color: #CDCDCD;
+}
+
+.dark .skills .container .bar {
+    background: #000000;
+    color: #CDCDCD;
+    box-shadow: 0 4px 10px rgba(205, 205, 205, 0.2);
+}
+
+.dark .skills .container .bar:hover {
+    background-color: #000000;
+    color: #CDCDCD;
+    box-shadow: 0 8px 10px rgba(205, 205, 205, 0.8);
+}
+
+.dark .skills .container .bar .info span {
+    color: #CDCDCD;
 }
 
 /* skills media queries starts*/
@@ -710,6 +906,36 @@ header .navbar ul li a:hover {
     margin: 1rem;
     font-family: "Nunito", sans-serif;
     font-weight: 700;
+}
+
+.dark .education {
+    background: #000000;
+}
+
+.dark .education .qoute {
+    color: #CDCDCD;
+}
+
+.dark .education .box-container .box {
+    background: #000000;
+    color: #CDCDCD;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(205, 205, 205, 0.2);
+}
+
+.dark .education .box-container .box:hover {
+    box-shadow: 1rem 0.5rem 1.2rem rgba(205, 205, 205, 0.3);
+}
+
+.dark .education .box-container .box .content h3 {
+    color: #5AFE73;
+}
+
+.dark .education .box-container .box .content p {
+    color: #CDCDCD;
+}
+
+.dark .education h4 {
+    color: #5AFE73;
 }
 
 /* education media queries starts*/
@@ -887,6 +1113,54 @@ header .navbar ul li a:hover {
     transform: translateX(5px);
 }
 
+.dark .work {
+    background: linear-gradient(to bottom, #000031, #00002c);
+}
+
+.dark .work h2 {
+    color: #CDCDCD;
+}
+
+.dark .work .heading span {
+    color: #5AFE73;
+}
+
+.dark .work .box-container .box {
+    box-shadow: 0 0.5rem 1rem rgba(205, 205, 205, 0.1);
+}
+
+.dark .work .box-container .box .content {
+    background: rgba(45, 45, 45, 0.9);
+}
+
+.dark .work .box-container .box .content .tag {
+    background: #5AFE73;
+}
+
+.dark .work .desc p {
+    color: #CDCDCD;
+}
+
+.dark .work .desc .btns .btn {
+    background: #5AFE73;
+    color: #000000;
+}
+
+.dark .work .desc .btns .btn:hover {
+    background: #3C3C3C;
+}
+
+.dark .work .viewall .btn {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    box-shadow: 0px 5px 10px rgba(205, 205, 205, 0.4);
+}
+
+.dark .work .viewall .btn:hover {
+    background: #CDCDCD;
+    color: #000000;
+}
+
 /* work section ends */
 
 /* experience section starts */
@@ -914,6 +1188,41 @@ header .navbar ul li a:hover {
     background-color: inherit;
     width: 50%;
 }
+
+.dark .experience .timeline::after {
+    background: #CDCDCD;
+}
+
+.dark .experience .container {
+    background-color: #000000;
+    color: #CDCDCD;
+}
+
+.dark .experience .container::after {
+    background-color: #000000;
+    border: 4px solid #5AFE73;
+    color: #CDCDCD;
+}
+
+.dark .experience .left::before,
+.dark .experience .right::before {
+    border-color: transparent transparent transparent #5AFE73;
+}
+
+.dark .experience .right::before {
+    border-color: transparent #5AFE73 transparent transparent;
+}
+
+.dark .experience .content {
+    background-color: #000000;
+}
+
+/* circles on timeline
+.dark .experience .container::after {
+    background-color: #000000;
+    border: 4px solid #5AFE73;
+    color: #CDCDCD;
+} */
 
 /*circles on timeline*/
 .experience .container::after {
@@ -1000,6 +1309,19 @@ header .navbar ul li a:hover {
     font-size: 1.2rem;
 }
 
+.dark .experience .left::before {
+    border-color: transparent transparent transparent #5AFE73;
+}
+
+.dark .experience .right::before {
+    border-color: transparent #5AFE73 transparent transparent;
+}
+
+.dark .experience .content {
+    background-color: #000000;
+    color: #CDCDCD;
+}
+
 /* view all button */
 .morebtn {
     display: flex;
@@ -1037,6 +1359,18 @@ header .navbar ul li a:hover {
 .morebtn .btn:hover i {
     transform: translateX(5px);
 }
+
+.dark .morebtn .btn {
+    background: #5AFE73;
+    box-shadow: 0px 5px 10px rgba(90, 254, 115, 0.6);
+    color: #000000;
+}
+
+.dark .morebtn .btn:hover {
+    background: #000000;
+    color: #5AFE73;
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -1084,6 +1418,25 @@ header .navbar ul li a:hover {
     .morebtn {
         margin-top: 3rem;
     }
+
+        .dark .experience .timeline::after {
+            background: #CDCDCD;
+        }
+    
+        .dark .experience .container {
+            background-color: #000000;
+            color: #CDCDCD;
+        }
+    
+        .dark .experience .container::before {
+            border-color: transparent #5AFE73 transparent transparent;
+        }
+    
+        .dark .experience .container::after {
+            background-color: #000000;
+            border: 4px solid #5AFE73;
+            color: #CDCDCD;
+        }
 }
 
 /* experience media queries ends */
@@ -1247,6 +1600,47 @@ form .button-area {
     left: 8px;
 }
 
+.dark .contact {
+    background: #000000;
+}
+
+.dark .contact .container {
+    background: #000000;
+    color: #CDCDCD;
+}
+
+.dark form .field input,
+.dark form .message textarea {
+    background: #000000;
+    color: #CDCDCD;
+    border: 1px solid #CDCDCD;
+}
+
+.dark .field input::placeholder,
+.dark .message textarea::placeholder {
+    color: #CDCDCD;
+}
+
+.dark .field input:focus,
+.dark .message textarea:focus {
+    border: 2px solid #5AFE73;
+}
+
+.dark .field input:focus~i,
+.dark .message textarea:focus~i {
+    color: #5AFE73;
+}
+
+.dark .button-area button {
+    background: #5AFE73;
+    color: #000000;
+}
+
+.dark .button-area button:hover {
+    background: #CDCDCD;
+    color: #000000;
+}
+
 /* contact section media queries starts */
 @media (max-width: 900px) {
     .contact {
@@ -1396,6 +1790,46 @@ form .button-area {
     }
 }
 
+.dark .footer {
+    background: #000000;
+}
+
+.dark .footer .box-container .box h3 {
+    color: #CDCDCD;
+}
+
+.dark .footer .box-container .box p,
+.dark .footer .box-container .box a {
+    color: #CDCDCD;
+}
+
+.dark .footer .box-container .box a:hover {
+    color: #5AFE73;
+}
+
+.dark .footer .box-container .box .share a {
+    background: #CDCDCD;
+    color: #000000;
+}
+
+.dark .footer .box-container .box .share a:hover {
+    color: #5AFE73;
+    border-color: #5AFE73;
+}
+
+.dark .footer .credit {
+    color: #CDCDCD;
+    border-top: 0.1rem solid #CDCDCD;
+}
+
+.dark .footer .credit a,
+.dark .footer .fa {
+    color: #5AFE73;
+}
+
+
+
+
 /* footer section ends */
 
 /* common media queries starts*/
@@ -1432,5 +1866,14 @@ form .button-area {
 #scroll-top.active {
     top: calc(100% - 12rem);
 }
+
+/* .dark #scroll-top {
+    background: #CDCDCD;
+    color: #000000;
+}
+
+.dark #scroll-top.active {
+    color: #5AFE73;
+} */
 
 /* scroll top ends */

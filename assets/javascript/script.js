@@ -62,6 +62,12 @@ $(document).ready(function () {
   // <!-- emailjs to mail contact form data -->
 });
 
+const switchElement = document.querySelector(".switch");
+
+switchElement.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Sai Samarth";
@@ -76,12 +82,11 @@ document.addEventListener("visibilitychange", function () {
 var typed = new Typed(".typing-text", {
   strings: [
     "",
+    "a tech enthusiast",
     "detail-oriented",
     "a problem-solver",
     "innovative",
-    "creative",
-    "technical",
-    "adaptable",
+    "a lifelong learner",
     "pro-active",
     "a cinematic connoisseur",
     "an outdoor adventurer",
