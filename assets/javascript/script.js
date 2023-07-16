@@ -65,22 +65,26 @@ $(document).ready(function () {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Sai Samarth";
-    $("#favicon").attr("href", "assets/images/favicon.png");
+    $("#favicon").attr("href", "assets/images/portfolio.png");
   } else {
-    document.title = "You Forgot Something";
-    $("#favicon").attr("href", "assets/images/favhand.png");
+    document.title = "See you soon, explorer!";
+    $("#favicon").attr("href", "assets/images/exp.png");
   }
 });
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "a fullstack developer",
-    "a frontend developer",
-    "a backend developer",
-    "a web developer",
-    "an app developer",
-    "an AI engineer",
+    "",
+    "detail-oriented",
+    "a problem-solver",
+    "innovative",
+    "creative",
+    "technical",
+    "adaptable",
+    "pro-active",
+    "a cinematic connoisseur",
+    "an outdoor adventurer",
   ],
   loop: true,
   typeSpeed: 50,
@@ -198,19 +202,19 @@ document.onkeydown = function (e) {
   }
 };
 
-// Start of Tawk.to Live Chat
-var Tawk_API = Tawk_API || {},
-  Tawk_LoadStart = new Date();
-(function () {
-  var s1 = document.createElement("script"),
-    s0 = document.getElementsByTagName("script")[0];
-  s1.async = true;
-  s1.src = "https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6";
-  s1.charset = "UTF-8";
-  s1.setAttribute("crossorigin", "*");
-  s0.parentNode.insertBefore(s1, s0);
-})();
-// End of Tawk.to Live Chat
+// // Start of Tawk.to Live Chat
+// var Tawk_API = Tawk_API || {},
+//   Tawk_LoadStart = new Date();
+// (function () {
+//   var s1 = document.createElement("script"),
+//     s0 = document.getElementsByTagName("script")[0];
+//   s1.async = true;
+//   s1.src = "https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6";
+//   s1.charset = "UTF-8";
+//   s1.setAttribute("crossorigin", "*");
+//   s0.parentNode.insertBefore(s1, s0);
+// })();
+// // End of Tawk.to Live Chat
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({

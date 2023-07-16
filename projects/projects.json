@@ -1,14 +1,5 @@
 [
-  {
-    "name": "MusicFusion",
-    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
-    "image": "music",
-    "category": "fullstack",
-    "links": {
-      "view": "",
-      "code": ""
-    }
-  },
+
   {
     "name": "Lyrics Search App",
     "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
@@ -30,6 +21,26 @@
     }
   },
   {
+    "name": "Spotify Clone",
+    "desc": "Static front-end clone of Spotify built with React. Lets users sign in and browse.",
+    "image": "spotify",
+    "category": "frontend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
+    }
+  },
+  {
+    "name": "Youtube Audio Downloader",
+    "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
+    "image": "mp3",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
+    }
+  },
+  {
     "name": "Animated Bar Charts",
     "desc": "Created animated text-based bar charts in C++ by reading from text data files.",
     "image": "animated",
@@ -37,6 +48,16 @@
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
+    }
+  },
+    {
+    "name": "MusicFusion",
+    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
+    "image": "music",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": ""
     }
   },
     {
@@ -59,16 +80,7 @@
       "code": ""
     }
   },
-    {
-    "name": "Spotify Clone",
-    "desc": "Static front-end clone of Spotify built with React. Lets users sign in and browse.",
-    "image": "spotify",
-    "category": "frontend",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
-    }
-  },
+
     {
     "name": "City Tracing",
     "desc": "Utilized WebGL and JavaScript to make a project that ray traces a scene of a city using a JSON file.",
@@ -80,20 +92,10 @@
     }
   },
     {
-    "name": "Youtube Audio Downloader",
-    "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
-    "image": "mp3",
-    "category": "backend",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
-    }
-  },
-    {
     "name": "Disney+ Clone",
     "desc": "Developed a front-end clone of Disney+ using React. Lets users sign in and browse movies and shows.",
     "image": "disney+",
-    "category": "front-end",
+    "category": "frontend",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Disney-Plus"
