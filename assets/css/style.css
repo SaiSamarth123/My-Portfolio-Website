@@ -97,6 +97,14 @@ section {
     color: rgb(115, 3, 167);
 }
 
+.dark .heading {
+    color: #CDCDCD;
+}
+
+.dark .heading span {
+    color: #5AFE73;
+}
+
 header .logo {
     font-size: 1.9rem;
     font-weight: 800;
@@ -664,24 +672,32 @@ header .navbar ul li a:hover {
 
 .dark .resumebtn .btn {
     color: #000000;
-    background: #5AFE73;
+    background: #57ee6e;
     box-shadow: 0px 5px 10px rgba(95, 254, 115, 0.6);
 }
 
 .dark .resumebtn .btn:hover {
-    background: #000000;
-    color: #5AFE73;
+    background: #74eb06;
+    color: #000000;
+    box-shadow: 0px 5px 10px rgba(20, 255, 52, 0.6);
 }
 
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
     .about .row .image {
         margin-top: 2rem;
+
     }
 
     .about .row .image img {
         margin: 0 auto;
         width: 80%;
+        mix-blend-mode: luminosity;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .about .row .image img:hover {
         mix-blend-mode: normal;
     }
 
@@ -980,13 +996,26 @@ header .navbar ul li a:hover {
     background: linear-gradient(to bottom, #000031, #00002c);
 }
 
+.dark .work {
+    background: linear-gradient(to bottom, #000031, #00002c);
+}
+
 .work h2 {
     color: #fff;
     padding: 1rem;
 }
 
+.dark .work h2 {
+    color: #CDCDCD;
+    padding: 1rem;
+}
+
 .work .heading span {
     color: rgb(255, 230, 0);
+}
+
+.dark .work .heading span {
+    color: #5AFE73;
 }
 
 .work .box-container {
@@ -1005,10 +1034,13 @@ header .navbar ul li a:hover {
     height: 30rem;
 }
 
-.work .box-container .box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.dark .work .box-container .box {
+    flex: 1 1 30rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(205, 205, 205, 0.1);
+    position: relative;
+        overflow: hidden;
+        height: 30rem;
 }
 
 .work .box-container .box .content {
@@ -1022,6 +1054,20 @@ header .navbar ul li a:hover {
     flex-direction: column;
 }
 
+
+
+.dark .work .box-container .box .content {
+    height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 85%;
+        left: 0;
+    background: rgba(45, 45, 45, 0.9);
+    display: flex;
+        flex-direction: column;
+}
+
+
 .work .box-container .box .content .tag {
     display: flex;
     flex-direction: row;
@@ -1032,6 +1078,31 @@ header .navbar ul li a:hover {
     padding-left: 1rem;
     background: #ffd900;
 }
+
+
+.dark .work .box-container .box .content .tag {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 4.5rem;
+        width: 100%;
+        padding-left: 1rem;
+    background: #5AFE73;
+}
+
+
+
+
+
+
+.work .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 
 .work .box-container .box .content .tag h3 {
     font-size: 2rem;
@@ -1059,6 +1130,8 @@ header .navbar ul li a:hover {
     margin-top: 2rem;
 }
 
+
+
 .work .desc .btns .btn {
     line-height: 0;
     display: inline;
@@ -1072,6 +1145,26 @@ header .navbar ul li a:hover {
 
 .work .desc .btns .btn:hover {
     background: #310ae0f5;
+}
+
+.dark .work .desc .btns .btn:hover {
+    background: #3C3C3C;
+}
+
+.dark .work .desc p {
+    font-size: 1.5rem;
+    color: #CDCDCD;
+}
+
+.dark .work .desc .btns .btn {
+    line-height: 0;
+        display: inline;
+        padding: 1.5rem 2.5rem;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+    background: #5AFE73;
+    color: #000000;
+    margin-right: 2rem;
 }
 
 .work .viewall {
@@ -1092,6 +1185,19 @@ header .navbar ul li a:hover {
     text-align: center;
 }
 
+.dark .work .viewall .btn {
+    position: relative;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 0.5em;
+    transition: 0.5s;
+    font-weight: 700;
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    box-shadow: 0px 5px 10px rgba(205, 205, 205, 0.4);
+    text-align: center;
+}
+
 .work .viewall .btn span {
     font-weight: 600;
     font-size: 1.7rem;
@@ -1104,6 +1210,9 @@ header .navbar ul li a:hover {
     transition: 0.3s;
 }
 
+
+
+
 .work .viewall .btn:hover {
     background: #fff;
     color: #000;
@@ -1113,53 +1222,19 @@ header .navbar ul li a:hover {
     transform: translateX(5px);
 }
 
-.dark .work {
-    background: linear-gradient(to bottom, #000031, #00002c);
-}
-
-.dark .work h2 {
-    color: #CDCDCD;
-}
-
-.dark .work .heading span {
-    color: #5AFE73;
-}
-
-.dark .work .box-container .box {
-    box-shadow: 0 0.5rem 1rem rgba(205, 205, 205, 0.1);
-}
-
-.dark .work .box-container .box .content {
-    background: rgba(45, 45, 45, 0.9);
-}
-
-.dark .work .box-container .box .content .tag {
-    background: #5AFE73;
-}
-
-.dark .work .desc p {
-    color: #CDCDCD;
-}
-
-.dark .work .desc .btns .btn {
-    background: #5AFE73;
-    color: #000000;
-}
-
-.dark .work .desc .btns .btn:hover {
-    background: #3C3C3C;
-}
-
-.dark .work .viewall .btn {
-    border: 2px solid #CDCDCD;
-    color: #CDCDCD;
-    box-shadow: 0px 5px 10px rgba(205, 205, 205, 0.4);
-}
-
 .dark .work .viewall .btn:hover {
     background: #CDCDCD;
     color: #000000;
 }
+
+
+
+
+
+
+
+
+
 
 /* work section ends */
 
@@ -1190,12 +1265,24 @@ header .navbar ul li a:hover {
 }
 
 .dark .experience .timeline::after {
+    content: "";
+        position: absolute;
+        width: 6px;
+        background: #020133;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+        z-index: -2;
     background: #CDCDCD;
 }
 
 .dark .experience .container {
+    padding: 10px 40px;
+    position: relative;
     background-color: #000000;
     color: #CDCDCD;
+    width: 50%;
 }
 
 .dark .experience .container::after {
@@ -1448,6 +1535,8 @@ header .navbar ul li a:hover {
     min-height: 60vh;
 }
 
+
+
 .contact .container {
     max-width: 1050px;
     width: 100%;
@@ -1664,8 +1753,6 @@ form .button-area {
         margin-right: 2rem;
     }
 }
-
-/* contact section media queries ends */
 /* contact section ends */
 
 /* footer section starts */

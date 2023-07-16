@@ -63,7 +63,6 @@ $(document).ready(function () {
 });
 
 const switchElement = document.querySelector(".switch");
-
 switchElement.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
@@ -87,8 +86,7 @@ var typed = new Typed(".typing-text", {
     "a problem-solver",
     "innovative",
     "a lifelong learner",
-    "pro-active",
-    "a cinematic connoisseur",
+    "a music and film buff",
     "an outdoor adventurer",
   ],
   loop: true,

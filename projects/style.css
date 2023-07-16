@@ -172,6 +172,28 @@ header .navbar ul li a:hover {
         border-radius: .5rem;
         border-bottom: .5rem solid #011aff;
     }
+    .switch {
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(24, 23, 23);
+        position: relative;
+    }
+    
+    .flicker {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: rgb(251, 6, 6);
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        transition: 0.3s;
+        box-shadow:
+        inset 4px 4px 4px rgb(37, 19, 19),
+        inset -4px -4px 4px rgba(75, 0, 189, 0.9);
+    }
+    
 
     .fa-times {
         transform: rotate(180deg);
@@ -181,6 +203,8 @@ header .navbar ul li a:hover {
         right: 0;
     }
 }
+
+
 
 /* hamburger icon ends */
 
