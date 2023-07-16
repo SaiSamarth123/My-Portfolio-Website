@@ -75,11 +75,12 @@ document.addEventListener("visibilitychange", function () {
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "frontend development",
-    "backend development",
-    "web development",
-    "android development",
-    "artificial intelligence",
+    "a fullstack developer",
+    "a frontend developer",
+    "a backend developer",
+    "a web developer",
+    "an app developer",
+    "an AI engineer",
   ],
   loop: true,
   typeSpeed: 50,
@@ -117,7 +118,7 @@ function showProjects(projects) {
   let projectHTML = "";
   projects
     .slice(0, 10)
-    // .filter((project) => project.category != "android")
+    .filter((project) => project.category != "android")
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
@@ -140,7 +141,7 @@ function showProjects(projects) {
 
   // <!-- tilt js effect starts -->
   VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
+    max: 20,
   });
   // <!-- tilt js effect ends -->
 

@@ -2,7 +2,7 @@
   {
     "name": "MusicFusion",
     "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
-    "image": "notystackandroid",
+    "image": "music",
     "category": "fullstack",
     "links": {
       "view": "",
@@ -12,21 +12,21 @@
   {
     "name": "Lyrics Search App",
     "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
-    "image": "notystackandroid",
+    "image": "lyrics",
     "category": "fullstack",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
     }
   },
   {
     "name": "Food Delivery Application",
     "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
-    "image": "notystackandroid",
+    "image": "food",
     "category": "fullstack",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/cs-440-at-uic/440-Group-12-Spring-2022"
     }
   },
   {
@@ -36,7 +36,7 @@
     "category": "backend",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
     }
   },
     {
@@ -46,13 +46,13 @@
     "category": "backend",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/OpenStreet-Maps/tree/master"
     }
   },
     {
     "name": "Baccarat Game",
     "desc": "Implemented full stack Baccarat game using Java sockets, showcasing expertise in frontend and backend development.",
-    "image": "notystackandroid",
+    "image": "baccarat",
     "category": "fullstack",
     "links": {
       "view": "",
@@ -66,7 +66,7 @@
     "category": "frontend",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
     }
   },
     {
@@ -76,17 +76,17 @@
     "category": "computergraphics",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
     {
     "name": "Youtube Audio Downloader",
     "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
-    "image": "notystackandroid",
+    "image": "mp3",
     "category": "backend",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
     }
   },
     {
@@ -100,13 +100,13 @@
     }
   },
     {
-    "name": "Food Delivery Application",
-    "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
-    "image": "notystackandroid",
-    "category": "fullstack",
+    "name": "Animation Nation",
+    "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
+    "image": "animation",
+    "category": "android",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
     }
   }
 
