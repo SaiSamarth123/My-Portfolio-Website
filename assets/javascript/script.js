@@ -42,10 +42,10 @@ $(document).ready(function () {
 
   // <!-- emailjs to mail contact form data -->
   $("#contact-form").submit(function (event) {
-    emailjs.init("xZq9mh6nkznVPtSeF");
+    emailjs.init("x13aSYCObP5ZxItGi");
 
     emailjs
-      .sendForm("contact_service", "template_contact", "#contact-form")
+      .sendForm("service_qk093uc", "template_x8s1dzc", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
