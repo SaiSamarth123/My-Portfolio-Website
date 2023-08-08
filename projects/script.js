@@ -24,10 +24,10 @@ switchElement.addEventListener("click", () => {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Projects | Portfolio Sai Samarth";
-    $("#favicon").attr("href", "/assets/images/portfolio.png");
+    $("#favicon").attr("href", "assets/images/portfolio.png");
   } else {
     document.title = "See you soon explorer";
-    $("#favicon").attr("href", "/assets/images/exp.png");
+    $("#favicon").attr("href", "assets/images/exp.png");
   }
 });
 
