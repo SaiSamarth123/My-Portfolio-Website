@@ -33,7 +33,7 @@ document.addEventListener("visibilitychange", function () {
 
 // fetch projects start
 function getProjects() {
-  return fetch("projects.json")
+  return fetch("./projects/projects.json")
     .then((response) => response.json())
     .then((data) => {
       return data;
