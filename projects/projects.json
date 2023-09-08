@@ -102,6 +102,16 @@
     }
   },
     {
+    "name": "Mobile List App",
+    "desc": "An app that allows users to add and delete from a list. Utilized Firebase database and has dark/light modes.",
+    "image": "mobile-app",
+    "category": "android",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Mobile-List-App"
+    }
+  },
+      {
     "name": "Animation Nation",
     "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
     "image": "animation",
@@ -110,6 +120,25 @@
       "view": "",
       "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
     }
-  }
-
+  },
+  {
+    "name": "KnowItAll ChatBot",
+    "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
+    "image": "chatbot",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/ChatBot.git"
+    }
+  },
+  {
+    "name": "MoviePitch",
+    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
+    "image": "moviepitch",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
+    }
+  },
 ]
