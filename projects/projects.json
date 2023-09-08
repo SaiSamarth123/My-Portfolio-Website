@@ -41,6 +41,16 @@
     }
   },
   {
+    "name": "KnowItAll ChatBot",
+    "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
+    "image": "chatbot",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/ChatBot.git"
+    }
+  },
+  {
     "name": "Animated Bar Charts",
     "desc": "Created animated text-based bar charts in C++ by reading from text data files.",
     "image": "animated",
@@ -70,7 +80,17 @@
       "code": "https://github.com/SaiSamarth123/OpenStreet-Maps/tree/master"
     }
   },
-    {
+  {
+    "name": "MoviePitch",
+    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
+    "image": "moviepitch",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
+    }
+  },
+  {
     "name": "Baccarat Game",
     "desc": "Implemented full stack Baccarat game using Java sockets, showcasing expertise in frontend and backend development.",
     "image": "baccarat",
@@ -80,8 +100,7 @@
       "code": ""
     }
   },
-
-    {
+  {
     "name": "City Tracing",
     "desc": "Utilized WebGL and JavaScript to make a project that ray traces a scene of a city using a JSON file.",
     "image": "tracing",
@@ -111,7 +130,7 @@
       "code": "https://github.com/SaiSamarth123/Mobile-List-App"
     }
   },
-      {
+  {
     "name": "Animation Nation",
     "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
     "image": "animation",
@@ -119,26 +138,6 @@
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
-    }
-  },
-  {
-    "name": "KnowItAll ChatBot",
-    "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
-    "image": "chatbot",
-    "category": "fullstack",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/ChatBot.git"
-    }
-  },
-  {
-    "name": "MoviePitch",
-    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
-    "image": "moviepitch",
-    "category": "fullstack",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
     }
   }
 ]
