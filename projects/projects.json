@@ -31,6 +31,16 @@
     }
   },
   {
+    "name": "Soccer Filtering System",
+    "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
+    "image": "soccer",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+    }
+  },
+  {
     "name": "Youtube Audio Downloader",
     "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
     "image": "mp3",
@@ -67,7 +77,7 @@
     "category": "fullstack",
     "links": {
       "view": "",
-      "code": ""
+      "code": "https://github.com/SaiSamarth123/Music-Platform"
     }
   },
     {
