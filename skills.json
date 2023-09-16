@@ -57,12 +57,16 @@
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+        "name": "Dart",
+        "icon": "https://img.icons8.com/color/48/dart.png"
     },
     {
-        "name": "iOS",
-        "icon": "https://img.icons8.com/nolan/64/ios-logo.png"
+        "name": "Flutter",
+        "icon": "https://img.icons8.com/color/48/flutter.png"
+    },
+    {
+        "name": "Swift",
+        "icon": "https://img.icons8.com/color/48/swift.png"
     },
     {
         "name": "MaterialUI",
