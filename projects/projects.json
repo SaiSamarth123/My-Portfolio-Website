@@ -120,7 +120,7 @@
       "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
-    {
+  {
     "name": "Disney+ Clone",
     "desc": "Developed a front-end clone of Disney+ using React. Lets users sign in and browse movies and shows.",
     "image": "disney+",
@@ -130,7 +130,7 @@
       "code": "https://github.com/SaiSamarth123/Disney-Plus"
     }
   },
-    {
+  {
     "name": "Mobile List App",
     "desc": "An app that allows users to add and delete from a list. Utilized Firebase database and has dark/light modes.",
     "image": "mobile-app",
