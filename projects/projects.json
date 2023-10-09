@@ -1,13 +1,12 @@
 [
-
   {
-    "name": "Lyrics Search App",
-    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
-    "image": "lyrics",
-    "category": "fullstack",
+    "name": "Disney+ Clone",
+    "desc": "Developed a front-end clone of Disney+ using React. Lets users sign in and browse movies and shows.",
+    "image": "disney+",
+    "category": "frontend",
     "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
+      "view": "https://sunny-basbousa-8e6cb4.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Disney-Plus"
     }
   },
   {
@@ -26,7 +25,7 @@
     "image": "spotify",
     "category": "frontend",
     "links": {
-      "view": "",
+      "view": "https://fabulous-frangollo-ae05ab.netlify.app/",
       "code": "https://github.com/SaiSamarth123/Spotify-Clone"
     }
   },
@@ -50,13 +49,23 @@
       "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
     }
   },
+    {
+    "name": "Lyrics Search App",
+    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
+    "image": "lyrics",
+    "category": "fullstack",
+    "links": {
+      "view": "https://neon-buttercream-342040.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
+    }
+  },
   {
     "name": "KnowItAll ChatBot",
     "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
     "image": "chatbot",
     "category": "fullstack",
     "links": {
-      "view": "",
+      "view": "https://fabulous-fenglisu-9daf12.netlify.app/",
       "code": "https://github.com/SaiSamarth123/ChatBot.git"
     }
   },
@@ -66,8 +75,18 @@
     "image": "animated",
     "category": "backend",
     "links": {
-      "view": "",
+      "view": "https://youtu.be/k7jZiKYSqX8",
       "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
+    }
+  },
+    {
+    "name": "Around The World",
+    "desc": "An Augmented Reality souvenir: a virtual knickknack that morphs to represent various travel destinations, while smartly displaying real-time weather and time of the location.",
+    "image": "tracing",
+    "category": "ar",
+    "links": {
+      "view": "https://youtu.be/yPxbH4k5lBE",
+      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
     {
@@ -86,7 +105,7 @@
     "image": "map",
     "category": "backend",
     "links": {
-      "view": "",
+      "view": "https://youtu.be/nrqAvBriUrI",
       "code": "https://github.com/SaiSamarth123/OpenStreet-Maps/tree/master"
     }
   },
@@ -96,7 +115,7 @@
     "image": "moviepitch",
     "category": "fullstack",
     "links": {
-      "view": "",
+      "view": "https://stupendous-cocada-16330c.netlify.app/",
       "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
     }
   },
@@ -121,22 +140,12 @@
     }
   },
   {
-    "name": "Disney+ Clone",
-    "desc": "Developed a front-end clone of Disney+ using React. Lets users sign in and browse movies and shows.",
-    "image": "disney+",
-    "category": "frontend",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Disney-Plus"
-    }
-  },
-  {
     "name": "Mobile List App",
     "desc": "An app that allows users to add and delete from a list. Utilized Firebase database and has dark/light modes.",
     "image": "mobile-app",
     "category": "android",
     "links": {
-      "view": "",
+      "view": "https://courageous-banoffee-619b7f.netlify.app/",
       "code": "https://github.com/SaiSamarth123/Mobile-List-App"
     }
   },
