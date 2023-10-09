@@ -1,7 +1,7 @@
 [
   {
     "name": "Disney+ Clone",
-    "desc": "Developed a front-end clone of Disney+ using React. Lets users sign in and browse movies and shows.",
+    "desc": "Developed a front-end clone of Disney+ using React and Firebase. Lets users sign in and browse popular, new and recommended movies/shows.",
     "image": "disney+",
     "category": "frontend",
     "links": {
@@ -21,7 +21,7 @@
   },
   {
     "name": "Spotify Clone",
-    "desc": "Static front-end clone of Spotify built with React. Lets users sign in and browse.",
+    "desc": "Static front-end clone of Spotify built with React and Firebase. Lets users sign in and browse various playlists and songs.",
     "image": "spotify",
     "category": "frontend",
     "links": {
@@ -37,6 +37,16 @@
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+    }
+  },
+  {
+    "name": "Amazon Clone",
+    "desc": "Static front-end clone of Amazon built with React and firebase. Lets users sign in and browse products.",
+    "image": "amazon",
+    "category": "frontend",
+    "links": {
+      "view": "https://comforting-dieffenbachia-3d2fd7.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Amazon-Clone"
     }
   },
   {
@@ -82,7 +92,7 @@
     {
     "name": "Around The World",
     "desc": "An Augmented Reality souvenir: a virtual knickknack that morphs to represent various travel destinations, while smartly displaying real-time weather and time of the location.",
-    "image": "tracing",
+    "image": "world",
     "category": "ar",
     "links": {
       "view": "https://youtu.be/yPxbH4k5lBE",
