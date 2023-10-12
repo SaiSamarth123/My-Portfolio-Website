@@ -30,6 +30,16 @@
     }
   },
   {
+    "name": "Animation Nation",
+    "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
+    "image": "animation",
+    "category": "android",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
+    }
+  },
+  {
     "name": "Soccer Filtering System",
     "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
     "image": "soccer",
@@ -96,7 +106,7 @@
     "category": "ar",
     "links": {
       "view": "https://youtu.be/yPxbH4k5lBE",
-      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
+      "code": "https://github.com/SaiSamarth123/Patipati.SaiSamarth.CS428P1"
     }
   },
     {
@@ -157,16 +167,6 @@
     "links": {
       "view": "https://courageous-banoffee-619b7f.netlify.app/",
       "code": "https://github.com/SaiSamarth123/Mobile-List-App"
-    }
-  },
-  {
-    "name": "Animation Nation",
-    "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
-    "image": "animation",
-    "category": "android",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
     }
   }
 ]
