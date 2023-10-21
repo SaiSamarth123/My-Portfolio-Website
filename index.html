@@ -2,20 +2,25 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HD801LCB5D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HD801LCB5D"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-HD801LCB5D');
-</script>
+      gtag("config", "G-HD801LCB5D");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
-      content="sai patipati, portfolio, sai, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio"
+      content="sai patipati, patipati,  portfolio, sai, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio, portfolio examples, software engineer portfolio"
     />
     <meta name="description" content="Welcome to Sai's Portfolio." />
     <!-- Custom CSS -->
@@ -61,6 +66,14 @@
           <li><a href="#work">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="javascript:void(0);"
+              data-cal-link="sai-samarth-patipati/meeting"
+              data-cal-config='{"layout":"month_view"}'
+              >Schedule Meeting</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="switch">
@@ -144,13 +157,21 @@
           <span class="tag">Software Engineer</span>
 
           <p>
-            With a solid grounding in computer science from the University of Illinois at Chicago, I'm fueled by a passion for innovating and the thrill of problem-solving. 
-            My arsenal, equipped with technical skills like fullstack development, mobile app development, and machine learning/AI proficiency, 
-            is constantly expanding as I navigate the ever-evolving landscape of technology.
-            When I unplug, I recharge by pushing my limits in boulder climbing and gym workouts, immersing myself in diverse movies and music, discovering new restaurants and cuisines, or exploring different places. 
-            As I look towards the horizon, I'm enthusiastic about stepping into roles where my skills can make a tangible impact and enable further growth. 
-            If you believe my experiences align with your needs or simply wish to connect, I'd be eager to discuss how we can enhance each other's journey in the tech realm. 
-            I'm always open to engaging conversations.
+            With a solid grounding in computer science from the University of
+            Illinois at Chicago, I'm fueled by a passion for innovating and the
+            thrill of problem-solving. My arsenal, equipped with technical
+            skills like fullstack development, mobile app development, and
+            machine learning/AI proficiency, is constantly expanding as I
+            navigate the ever-evolving landscape of technology. When I unplug, I
+            recharge by pushing my limits in boulder climbing and gym workouts,
+            immersing myself in diverse movies and music, discovering new
+            restaurants and cuisines, or exploring different places. As I look
+            towards the horizon, I'm enthusiastic about stepping into roles
+            where my skills can make a tangible impact and enable further
+            growth. If you believe my experiences align with your needs or
+            simply wish to connect, I'd be eager to discuss how we can enhance
+            each other's journey in the tech realm. I'm always open to engaging
+            conversations.
           </p>
 
           <div class="box-container">
@@ -221,7 +242,7 @@
               draggable="false"
               src="./assets/images/education/UIC.jpeg"
               alt=""
-        />
+            />
           </div>
           <div class="content">
             <h3>Bachelor of Science in Computer Science</h3>
@@ -229,6 +250,7 @@
             <h4>Graduated in December 2022</h4>
           </div>
         </div>
+      </div>
 
       <!-- <div class="box">
           <div class="image">
@@ -350,11 +372,21 @@
           <form id="contact-form">
             <div class="form-group">
               <div class="field">
-                <input type="text" name="user_name" placeholder="Name" required />
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Name"
+                  required
+                />
                 <i class="fas fa-user"></i>
               </div>
               <div class="field">
-                <input type="text" name="user_email" placeholder="Email" required />
+                <input
+                  type="text"
+                  name="user_email"
+                  placeholder="Email"
+                  required
+                />
                 <i class="fas fa-envelope"></i>
               </div>
               <div class="field">
@@ -411,7 +443,7 @@
 
         <div class="box">
           <h3>contact info</h3>
-          <p><i class="fas fa-phone"></i>+312-722-9354</p>
+          <!-- <p><i class="fas fa-phone"></i>+312-722-9354</p> -->
           <p><i class="fas fa-envelope"></i>sai003sam@gmail.com</p>
           <p>
             <i class="fas fa-map-marked-alt"></i>Springfield, IL, United States
@@ -441,7 +473,7 @@
 
       <h1 class="credit">
         Designed by
-        <a href="https://www.linkedin.com/in/saisamarth"> sai samarth</a>
+        <a href="https://www.linkedin.com/in/saisamarth"> Sai Patipati</a>
         <i class="fa-solid fa-headphones" style="color: #5db323"></i>
       </h1>
       <a
@@ -492,12 +524,97 @@
 
     <!-- scroll reveal anim -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- <script
+    <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script> -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- Cal floating-popup embed code begins -->
+    <script type="text/javascript">
+      (function (C, A, L) {
+        let p = function (a, ar) {
+          a.q.push(ar);
+        };
+        let d = C.document;
+        C.Cal =
+          C.Cal ||
+          function () {
+            let cal = C.Cal;
+            let ar = arguments;
+            if (!cal.loaded) {
+              cal.ns = {};
+              cal.q = cal.q || [];
+              d.head.appendChild(d.createElement("script")).src = A;
+              cal.loaded = true;
+            }
+            if (ar[0] === L) {
+              const api = function () {
+                p(api, arguments);
+              };
+              const namespace = ar[1];
+              api.q = api.q || [];
+              typeof namespace === "string"
+                ? (cal.ns[namespace] = api) && p(api, ar)
+                : p(cal, ar);
+              return;
+            }
+            p(cal, ar);
+          };
+      })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", { origin: "https://cal.com" });
+
+      Cal("floatingButton", {
+        calLink: "sai-samarth-patipati/meeting",
+        buttonPosition: "bottom-right",
+        buttonText: "Schedule a meeting",
+      });
+      Cal("ui", {
+        styles: { branding: { brandColor: "#000000" } },
+        hideEventTypeDetails: false,
+        layout: "month_view",
+      });
+    </script>
+    <!-- Cal floating-popup embed code ends -->
+
+    <script type="text/javascript">
+      (function (C, A, L) {
+        let p = function (a, ar) {
+          a.q.push(ar);
+        };
+        let d = C.document;
+        C.Cal =
+          C.Cal ||
+          function () {
+            let cal = C.Cal;
+            let ar = arguments;
+            if (!cal.loaded) {
+              cal.ns = {};
+              cal.q = cal.q || [];
+              d.head.appendChild(d.createElement("script")).src = A;
+              cal.loaded = true;
+            }
+            if (ar[0] === L) {
+              const api = function () {
+                p(api, arguments);
+              };
+              const namespace = ar[1];
+              api.q = api.q || [];
+              typeof namespace === "string"
+                ? (cal.ns[namespace] = api) && p(api, ar)
+                : p(cal, ar);
+              return;
+            }
+            p(cal, ar);
+          };
+      })(window, "https://app.cal.com/embed/embed.js", "init");
+      Cal("init", { origin: "https://cal.com" });
+
+      Cal("ui", {
+        styles: { branding: { brandColor: "#000000" } },
+        hideEventTypeDetails: false,
+        layout: "month_view",
+      });
+    </script>
 
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
