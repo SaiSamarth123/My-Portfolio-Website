@@ -92,10 +92,10 @@ function triggerParticles(e) {
   // Determine which corner(s) to trigger based on mouse position
   if (mouseX < rect.width / 2 && mouseY < rect.height / 2) {
     // Top-left corner of the image
-    createParticles(rect.left, rect.top - 100);
+    createParticles(rect.left, rect.top);
   } else if (mouseX >= rect.width / 2 && mouseY < rect.height / 2) {
     // Top-right corner of the image
-    createParticles(rect.right, rect.top - 100);
+    createParticles(rect.right, rect.top);
   } else if (mouseX < rect.width / 2 && mouseY >= rect.height / 2) {
     // Bottom-left corner of the image
     createParticles(rect.left, rect.bottom - 150);
