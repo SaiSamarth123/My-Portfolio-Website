@@ -144,7 +144,7 @@ function showProjects(projects) {
           </div>
         </div>
       </div>
-    </div>
+    </div>`;
     });
   projectsContainer.innerHTML = projectHTML;
 
