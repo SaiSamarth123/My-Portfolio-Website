@@ -81,11 +81,11 @@ document.addEventListener("visibilitychange", function () {
 var typed = new Typed(".typing-text", {
   strings: [
     "",
-    "a Tech Enthusiast",
+    "a Lifelong Learner",
     "Solution-Oriented",
+    "a Tech Enthusiast",
     "a Problem-Solver",
     "a Storyteller",
-    "a Lifelong Learner",
     "a Music and Film buff",
     "an Explorer",
     "a Nature Enthusiast",
