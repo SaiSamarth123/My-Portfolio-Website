@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Disney+ Clone",
+    "desc": "Developed a front-end clone of Disney+ using React and Firebase. Lets users sign in and browse popular, new and recommended movies/shows.",
+    "image": "disney+",
+    "category": "frontend",
+    "links": {
+      "view": "https://sunny-basbousa-8e6cb4.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Disney-Plus"
+    }
+  },
+  {
+    "name": "Food Delivery Application",
+    "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
+    "image": "food",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/cs-440-at-uic/440-Group-12-Spring-2022"
+    }
+  },
+  {
+    "name": "Spotify Clone",
+    "desc": "Static front-end clone of Spotify built with React and Firebase. Lets users sign in and browse various playlists and songs.",
+    "image": "spotify",
+    "category": "frontend",
+    "links": {
+      "view": "https://fabulous-frangollo-ae05ab.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
+    }
+  },
+  {
+    "name": "Animation Nation",
+    "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
+    "image": "animation",
+    "category": "android",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
+    }
+  },
+  {
+    "name": "Soccer Filtering System",
+    "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
+    "image": "soccer",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+    }
+  },
+  {
+    "name": "Amazon Clone",
+    "desc": "Static front-end clone of Amazon built with React and firebase. Lets users sign in and browse products.",
+    "image": "amazon",
+    "category": "frontend",
+    "links": {
+      "view": "https://comforting-dieffenbachia-3d2fd7.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Amazon-Clone"
+    }
+  },
+  {
+    "name": "Youtube Audio Downloader",
+    "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
+    "image": "mp3",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
+    }
+  },
+    {
+    "name": "Lyrics Search App",
+    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
+    "image": "lyrics",
+    "category": "fullstack",
+    "links": {
+      "view": "https://neon-buttercream-342040.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
+    }
+  },
+  {
+    "name": "KnowItAll ChatBot",
+    "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
+    "image": "chatbot",
+    "category": "fullstack",
+    "links": {
+      "view": "https://fabulous-fenglisu-9daf12.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/ChatBot.git"
+    }
+  },
+  {
+    "name": "Animated Bar Charts",
+    "desc": "Created animated text-based bar charts in C++ by reading from text data files.",
+    "image": "animated",
+    "category": "backend",
+    "links": {
+      "view": "https://youtu.be/k7jZiKYSqX8",
+      "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
+    }
+  },
+    {
+    "name": "Around The World",
+    "desc": "An Augmented Reality souvenir: a virtual knickknack that morphs to represent various travel destinations, while smartly displaying real-time weather and time of the location.",
+    "image": "world",
+    "category": "ar",
+    "links": {
+      "view": "https://youtu.be/yPxbH4k5lBE",
+      "code": "https://github.com/SaiSamarth123/Patipati.SaiSamarth.CS428P1"
+    }
+  },
+    {
+    "name": "MusicFusion",
+    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
+    "image": "music",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Music-Platform"
+    }
+  },
+    {
+    "name": "OpenStreet Map",
+    "desc": "Developed a console-based C++ program utilizing a custom-built graph class and Dijkstras algorithm to navigate between buildings via footways",
+    "image": "map",
+    "category": "backend",
+    "links": {
+      "view": "https://youtu.be/nrqAvBriUrI",
+      "code": "https://github.com/SaiSamarth123/OpenStreet-Maps/tree/master"
+    }
+  },
+  {
+    "name": "MoviePitch",
+    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
+    "image": "moviepitch",
+    "category": "fullstack",
+    "links": {
+      "view": "https://stupendous-cocada-16330c.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
+    }
+  },
+  {
+    "name": "Baccarat Game",
+    "desc": "Implemented full stack Baccarat game using Java sockets, showcasing expertise in frontend and backend development.",
+    "image": "baccarat",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "City Tracing",
+    "desc": "Utilized WebGL and JavaScript to make a project that ray traces a scene of a city using a JSON file.",
+    "image": "tracing",
+    "category": "computergraphics",
+    "links": {
+      "view": "",
+      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
+    }
+  },
+  {
+    "name": "Mobile List App",
+    "desc": "An app that allows users to add and delete from a list. Utilized Firebase database and has dark/light modes.",
+    "image": "mobile-app",
+    "category": "android",
+    "links": {
+      "view": "https://courageous-banoffee-619b7f.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Mobile-List-App"
+    }
+  }
+]
