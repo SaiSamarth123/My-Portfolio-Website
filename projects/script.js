@@ -101,6 +101,75 @@ function getProjects() {
 //   });
 // }
 
+// function showProjects(projects) {
+//   let projectsContainer = document.querySelector(".work .box-container");
+//   let projectsHTML = "";
+//   let uniqueProjects = new Set(); // Set to store unique project names
+
+//   projects.forEach((project) => {
+//     if (!uniqueProjects.has(project.name)) {
+//       uniqueProjects.add(project.name);
+
+//       let categories = Array.isArray(project.category)
+//         ? project.category
+//         : [project.category];
+
+//       let projectCategories = categories.filter(
+//         (category, index) => categories.indexOf(category) === index
+//       );
+
+//       projectCategories.forEach((category) => {
+//         projectsHTML += `
+//           <div class="grid-item ${category}">
+//             <div class="box tilt" style="width: 380px; margin: 1rem">
+//               <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+//               <div class="content">
+//                 <div class="tag">
+//                   <h3>${project.name}</h3>
+//                 </div>
+//                 <div class="desc">
+//                   <p>${project.desc}</p>
+//                   <div class="btns">
+//                     <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+//                     <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>`;
+//       });
+//     }
+//   });
+
+//   projectsContainer.innerHTML = projectsHTML;
+
+//   // isotope filter products
+//   var $grid = $(".box-container").isotope({
+//     itemSelector: ".grid-item",
+//     layoutMode: "fitRows",
+//     masonry: {
+//       columnWidth: 200,
+//     },
+//   });
+
+//   // filter items on button click
+//   $(".button-group").on("click", "button", function () {
+//     $(".button-group").find(".is-checked").removeClass("is-checked");
+//     $(this).addClass("is-checked");
+//     var filterValue = $(this).attr("data-filter");
+
+//     $grid.isotope({
+//       filter: function () {
+//         if (filterValue === "*") {
+//           return true; // Show all projects when "All Projects" filter is selected
+//         } else {
+//           return $(this).is(filterValue) || $(this).hasClass(filterValue);
+//         }
+//       },
+//     });
+//   });
+// }
+
 function showProjects(projects) {
   let projectsContainer = document.querySelector(".work .box-container");
   let projectsHTML = "";
@@ -110,63 +179,48 @@ function showProjects(projects) {
     if (!uniqueProjects.has(project.name)) {
       uniqueProjects.add(project.name);
 
+      // Handle multiple categories
       let categories = Array.isArray(project.category)
         ? project.category
         : [project.category];
 
-      let projectCategories = categories.filter(
-        (category, index) => categories.indexOf(category) === index
-      );
+      // Create a class string that includes all categories for the project
+      let categoryClasses = categories
+        .map((cat) => cat.trim().toLowerCase().replace(/\s+/g, "-"))
+        .join(" ");
 
-      projectCategories.forEach((category) => {
-        projectsHTML += `
-          <div class="grid-item ${category}">
-            <div class="box tilt" style="width: 380px; margin: 1rem">
-              <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-              <div class="content">
-                <div class="tag">
-                  <h3>${project.name}</h3>
-                </div>
-                <div class="desc">
-                  <p>${project.desc}</p>
-                  <div class="btns">
-                    <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                    <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                  </div>
-                </div>
+      // Create only one div per project with all categories as classes
+      projectsHTML += `
+        <div class="grid-item ${categoryClasses}" style="width: 380px; margin: 1rem">
+          <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="${project.name}" />
+          <div class="content">
+            <div class="tag">
+              <h3>${project.name}</h3>
+            </div>
+            <div class="desc">
+              <p>${project.desc}</p>
+              <div class="btns">
+                <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
               </div>
             </div>
-          </div>`;
-      });
+          </div>
+        </div>`;
     }
   });
 
   projectsContainer.innerHTML = projectsHTML;
 
-  // isotope filter products
+  // Initialize and configure Isotope for filtering
   var $grid = $(".box-container").isotope({
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
-    masonry: {
-      columnWidth: 200,
-    },
   });
 
-  // filter items on button click
+  // Filter items on button click
   $(".button-group").on("click", "button", function () {
-    $(".button-group").find(".is-checked").removeClass("is-checked");
-    $(this).addClass("is-checked");
     var filterValue = $(this).attr("data-filter");
-
-    $grid.isotope({
-      filter: function () {
-        if (filterValue === "*") {
-          return true; // Show all projects when "All Projects" filter is selected
-        } else {
-          return $(this).is(filterValue) || $(this).hasClass(filterValue);
-        }
-      },
-    });
+    $grid.isotope({ filter: filterValue === "*" ? "*" : "." + filterValue });
   });
 }
 
