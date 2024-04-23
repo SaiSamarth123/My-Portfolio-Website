@@ -10,6 +10,26 @@
     }
   },
   {
+    "name": "Nearby",
+    "desc": "Developing an app that helps users see the history and facts of any place they're in.",
+    "image": "",
+    "category": "android",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Nearby.git"
+    }
+  },
+  {
+    "name": "BeatLabs",
+    "desc": "Creating an app that helps musicians convert voice to musical instrumentals.",
+    "image": "",
+    "category": "android",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/BeatLabs.git"
+    }
+  },
+  {
     "name": "Food Delivery Application",
     "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
     "image": "food",
