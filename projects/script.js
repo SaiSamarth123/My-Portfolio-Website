@@ -104,11 +104,11 @@ function getProjects() {
 function showProjects(projects) {
   let projectsContainer = document.querySelector(".work .box-container");
   let projectsHTML = "";
-  let projectsMap = new Map(); // Map to store unique projects
+  let uniqueProjects = new Set(); // Set to store unique project names
 
   projects.forEach((project) => {
-    if (!projectsMap.has(project.name)) {
-      projectsMap.set(project.name, project);
+    if (!uniqueProjects.has(project.name)) {
+      uniqueProjects.add(project.name);
 
       if (Array.isArray(project.category)) {
         project.category.forEach((category) => {
