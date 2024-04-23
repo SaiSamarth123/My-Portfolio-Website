@@ -179,17 +179,11 @@ function showProjects(projects) {
     if (!uniqueProjects.has(project.name)) {
       uniqueProjects.add(project.name);
 
-      // Handle multiple categories
-      let categories = Array.isArray(project.category)
-        ? project.category
-        : [project.category];
+      // Combine all categories into one class string for each project
+      let categoryClasses = Array.isArray(project.category)
+        ? project.category.join(" ").toLowerCase().replace(/\s+/g, "-") // Join categories and replace spaces with dashes
+        : project.category.toLowerCase().replace(/\s+/g, "-");
 
-      // Create a class string that includes all categories for the project
-      let categoryClasses = categories
-        .map((cat) => cat.trim().toLowerCase().replace(/\s+/g, "-"))
-        .join(" ");
-
-      // Create only one div per project with all categories as classes
       projectsHTML += `
         <div class="grid-item ${categoryClasses}" style="width: 380px; margin: 1rem">
           <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="${project.name}" />
@@ -211,7 +205,7 @@ function showProjects(projects) {
 
   projectsContainer.innerHTML = projectsHTML;
 
-  // Initialize and configure Isotope for filtering
+  // Initialize Isotope for filtering
   var $grid = $(".box-container").isotope({
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
@@ -220,7 +214,10 @@ function showProjects(projects) {
   // Filter items on button click
   $(".button-group").on("click", "button", function () {
     var filterValue = $(this).attr("data-filter");
-    $grid.isotope({ filter: filterValue === "*" ? "*" : "." + filterValue });
+    $grid.isotope({
+      filter:
+        filterValue === "*" ? "*" : "." + filterValue.replace(/\s+/g, "-"),
+    });
   });
 }
 
