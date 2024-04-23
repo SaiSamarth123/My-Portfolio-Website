@@ -14,7 +14,7 @@
     "name": "Nearby",
     "desc": "Developing an app that helps users see the history and facts of any place they're in.",
     "image": "nearby",
-    "category": ["apps", "ai"],
+    "category": "ai",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Nearby.git"
