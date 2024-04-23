@@ -148,7 +148,7 @@ function showProjects(projects) {
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
     masonry: {
-      columnWidth: 200,
+      columnWidth: 100,
     },
   });
 
