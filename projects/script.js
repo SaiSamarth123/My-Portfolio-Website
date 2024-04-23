@@ -114,7 +114,11 @@ function showProjects(projects) {
         ? project.category
         : [project.category];
 
-      categories.forEach((category) => {
+      let projectCategories = categories.filter(
+        (category, index) => categories.indexOf(category) === index
+      );
+
+      projectCategories.forEach((category) => {
         projectsHTML += `
           <div class="grid-item ${category}">
             <div class="box tilt" style="width: 380px; margin: 1rem">
