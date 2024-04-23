@@ -1,5 +1,15 @@
 [
   {
+    "name": "Lyrics Search App",
+    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
+    "image": "lyrics",
+    "category": "fullstack",
+    "links": {
+      "view": "https://neon-buttercream-342040.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
+    }
+  },
+  {
     "name": "Disney+ Clone",
     "desc": "Developed a front-end clone of Disney+ using React and Firebase. Lets users sign in and browse popular, new and recommended movies/shows.",
     "image": "disney+",
@@ -19,6 +29,16 @@
       "code": "https://github.com/SaiSamarth123/Nearby.git"
     }
   },
+    {
+    "name": "Soccer Filtering System",
+    "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
+    "image": "soccer",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+    }
+  },
   {
     "name": "BeatLabs",
     "desc": "Creating an app that helps musicians convert voice to musical instrumentals.",
@@ -27,6 +47,16 @@
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/BeatLabs.git"
+    }
+  },
+  {
+    "name": "MusicFusion",
+    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
+    "image": "music",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Music-Platform"
     }
   },
   {
@@ -60,16 +90,6 @@
     }
   },
   {
-    "name": "Soccer Filtering System",
-    "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
-    "image": "soccer",
-    "category": "backend",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
-    }
-  },
-  {
     "name": "Amazon Clone",
     "desc": "Static front-end clone of Amazon built with React and firebase. Lets users sign in and browse products.",
     "image": "amazon",
@@ -89,16 +109,7 @@
       "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
     }
   },
-    {
-    "name": "Lyrics Search App",
-    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
-    "image": "lyrics",
-    "category": "fullstack",
-    "links": {
-      "view": "https://neon-buttercream-342040.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
-    }
-  },
+
   {
     "name": "KnowItAll ChatBot",
     "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
@@ -129,16 +140,7 @@
       "code": "https://github.com/SaiSamarth123/Patipati.SaiSamarth.CS428P1"
     }
   },
-    {
-    "name": "MusicFusion",
-    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
-    "image": "music",
-    "category": "fullstack",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Music-Platform"
-    }
-  },
+
     {
     "name": "OpenStreet Map",
     "desc": "Developed a console-based C++ program utilizing a custom-built graph class and Dijkstras algorithm to navigate between buildings via footways",
