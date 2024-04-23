@@ -69,16 +69,7 @@
       "code": "https://github.com/cs-440-at-uic/440-Group-12-Spring-2022"
     }
   },
-  {
-    "name": "Spotify Clone",
-    "desc": "Static front-end clone of Spotify built with React and Firebase. Lets users sign in and browse various playlists and songs.",
-    "image": "spotify",
-    "category": "frontend",
-    "links": {
-      "view": "https://fabulous-frangollo-ae05ab.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
-    }
-  },
+
   {
     "name": "Animation Nation",
     "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
@@ -89,27 +80,6 @@
       "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
     }
   },
-  {
-    "name": "Amazon Clone",
-    "desc": "Static front-end clone of Amazon built with React and firebase. Lets users sign in and browse products.",
-    "image": "amazon",
-    "category": "frontend",
-    "links": {
-      "view": "https://comforting-dieffenbachia-3d2fd7.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/Amazon-Clone"
-    }
-  },
-  {
-    "name": "Youtube Audio Downloader",
-    "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
-    "image": "mp3",
-    "category": "backend",
-    "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
-    }
-  },
-
   {
     "name": "KnowItAll ChatBot",
     "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
@@ -128,6 +98,16 @@
     "links": {
       "view": "https://youtu.be/k7jZiKYSqX8",
       "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
+    }
+  },
+    {
+    "name": "MoviePitch",
+    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
+    "image": "moviepitch",
+    "category": "fullstack",
+    "links": {
+      "view": "https://stupendous-cocada-16330c.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
     }
   },
     {
@@ -151,17 +131,7 @@
       "code": "https://github.com/SaiSamarth123/OpenStreet-Maps/tree/master"
     }
   },
-  {
-    "name": "MoviePitch",
-    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
-    "image": "moviepitch",
-    "category": "fullstack",
-    "links": {
-      "view": "https://stupendous-cocada-16330c.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
-    }
-  },
-  {
+    {
     "name": "Baccarat Game",
     "desc": "Implemented full stack Baccarat game using Java sockets, showcasing expertise in frontend and backend development.",
     "image": "baccarat",
@@ -169,6 +139,16 @@
     "links": {
       "view": "",
       "code": ""
+    }
+  },
+    {
+    "name": "Amazon Clone",
+    "desc": "Static front-end clone of Amazon built with React and firebase. Lets users sign in and browse products.",
+    "image": "amazon",
+    "category": "frontend",
+    "links": {
+      "view": "https://comforting-dieffenbachia-3d2fd7.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Amazon-Clone"
     }
   },
   {
@@ -181,9 +161,30 @@
       "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
+    {
+    "name": "Spotify Clone",
+    "desc": "Static front-end clone of Spotify built with React and Firebase. Lets users sign in and browse various playlists and songs.",
+    "image": "spotify",
+    "category": "frontend",
+    "links": {
+      "view": "https://fabulous-frangollo-ae05ab.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Spotify-Clone"
+    }
+  },
+    {
+    "name": "Youtube Audio Downloader",
+    "desc": "Developed a simple tool to download mp4 youtube videos and convert to audio mp3 files using Python.",
+    "image": "mp3",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Python_Projects/tree/main/mp3_converter"
+    }
+  },
+
   {
-    "name": "Mobile List App",
-    "desc": "An app that allows users to add and delete from a list. Utilized Firebase database and has dark/light modes.",
+    "name": "Grocery List App",
+    "desc": "An app that allows users to add and delete to a grocery list. Utilized Firebase database and has dark/light modes.",
     "image": "mobile-app",
     "category": "android",
     "links": {
