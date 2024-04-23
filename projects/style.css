@@ -260,7 +260,7 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 
 .work .box-container .box {
