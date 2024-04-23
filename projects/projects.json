@@ -3,7 +3,7 @@
     "name": "Lyrics Search App",
     "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
     "image": "lyrics",
-    "category": "fullstack",
+    "category": ["fullstack", "webapp"],
     "links": {
       "view": "https://neon-buttercream-342040.netlify.app/",
       "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
@@ -34,7 +34,7 @@
     "name": "BeatLabs",
     "desc": "Creating an app that helps musicians convert voice to musical instrumentals.",
     "image": "beatlab",
-    "category": "apps",
+    "category": ["webapp", "ai"],
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/BeatLabs.git"
@@ -60,11 +60,21 @@
       "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
+      {
+    "name": "MoviePitch",
+    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
+    "image": "moviepitch",
+    "category": ["fullstack", "ai", "webapp"],
+    "links": {
+      "view": "https://stupendous-cocada-16330c.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
+    }
+  },
   {
     "name": "MusicFusion",
     "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
     "image": "music",
-    "category": "fullstack",
+    "category": ["fullstack","webapp"],
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Music-Platform"
@@ -85,7 +95,7 @@
     "name": "KnowItAll ChatBot",
     "desc": "An interactive chatbot powered by the advanced AI capabilities of ChatGPT-4.",
     "image": "chatbot",
-    "category": "fullstack",
+    "category": ["fullstack", "ai", "webapp"],
     "links": {
       "view": "https://fabulous-fenglisu-9daf12.netlify.app/",
       "code": "https://github.com/SaiSamarth123/ChatBot.git"
@@ -101,16 +111,7 @@
       "code": "https://github.com/SaiSamarth123/Animated-Bar-Charts"
     }
   },
-    {
-    "name": "MoviePitch",
-    "desc": "An AI-driven movie pitch generator that crafts character-driven narratives and recommends apt actors, all wrapped up with a catchy title.",
-    "image": "moviepitch",
-    "category": "fullstack",
-    "links": {
-      "view": "https://stupendous-cocada-16330c.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
-    }
-  },
+
     {
     "name": "Around The World",
     "desc": "An Augmented Reality souvenir: a virtual knickknack that morphs to represent various travel destinations, while smartly displaying real-time weather and time of the location.",
@@ -188,7 +189,7 @@
     "name": "Grocery List App",
     "desc": "An app that allows users to add and delete to a grocery list. Utilized Firebase database and has dark/light modes.",
     "image": "mobile-app",
-    "category": "android",
+    "category": "apps",
     "links": {
       "view": "https://courageous-banoffee-619b7f.netlify.app/",
       "code": "https://github.com/SaiSamarth123/Mobile-List-App"
