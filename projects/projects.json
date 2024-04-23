@@ -9,21 +9,12 @@
       "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
     }
   },
-  {
-    "name": "Disney+ Clone",
-    "desc": "Developed a front-end clone of Disney+ using React and Firebase. Lets users sign in and browse popular, new and recommended movies/shows.",
-    "image": "disney+",
-    "category": "frontend",
-    "links": {
-      "view": "https://sunny-basbousa-8e6cb4.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/Disney-Plus"
-    }
-  },
+
   {
     "name": "Nearby",
     "desc": "Developing an app that helps users see the history and facts of any place they're in.",
     "image": "nearby",
-    "category": "android",
+    "category": "apps",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Nearby.git"
@@ -43,10 +34,30 @@
     "name": "BeatLabs",
     "desc": "Creating an app that helps musicians convert voice to musical instrumentals.",
     "image": "beatlab",
-    "category": "backend",
+    "category": "apps",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/BeatLabs.git"
+    }
+  },
+    {
+    "name": "Food Delivery Application",
+    "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
+    "image": "food",
+    "category": "fullstack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/cs-440-at-uic/440-Group-12-Spring-2022"
+    }
+  },
+  {
+    "name": "City Tracing",
+    "desc": "Utilized WebGL and JavaScript to make a project that ray traces a scene of a city using a JSON file.",
+    "image": "tracing",
+    "category": "computergraphics",
+    "links": {
+      "view": "",
+      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
     }
   },
   {
@@ -59,22 +70,12 @@
       "code": "https://github.com/SaiSamarth123/Music-Platform"
     }
   },
-  {
-    "name": "Food Delivery Application",
-    "desc": "Developed a food delivery app that helps drivers and customers using Java, Dart, Python, and MySQL. Employed Agile methodologies using Jira.",
-    "image": "food",
-    "category": "fullstack",
-    "links": {
-      "view": "",
-      "code": "https://github.com/cs-440-at-uic/440-Group-12-Spring-2022"
-    }
-  },
 
   {
     "name": "Animation Nation",
     "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
     "image": "animation",
-    "category": "backend",
+    "category": "apps",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
@@ -151,16 +152,17 @@
       "code": "https://github.com/SaiSamarth123/Amazon-Clone"
     }
   },
-  {
-    "name": "City Tracing",
-    "desc": "Utilized WebGL and JavaScript to make a project that ray traces a scene of a city using a JSON file.",
-    "image": "tracing",
-    "category": "computergraphics",
+      {
+    "name": "Disney+ Clone",
+    "desc": "Developed a front-end clone of Disney+ using React and Firebase. Lets users sign in and browse popular, new and recommended movies/shows.",
+    "image": "disney+",
+    "category": "frontend",
     "links": {
-      "view": "",
-      "code": "https://github.com/uic-cs425/spring-2022-assignment-4-SaiSamarth123"
+      "view": "https://sunny-basbousa-8e6cb4.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Disney-Plus"
     }
   },
+  
     {
     "name": "Spotify Clone",
     "desc": "Static front-end clone of Spotify built with React and Firebase. Lets users sign in and browse various playlists and songs.",
