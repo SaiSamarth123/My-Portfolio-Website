@@ -43,7 +43,7 @@
     "name": "BeatLabs",
     "desc": "Creating an app that helps musicians convert voice to musical instrumentals.",
     "image": "beatlab",
-    "category": "android",
+    "category": "backend",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/BeatLabs.git"
@@ -74,7 +74,7 @@
     "name": "Animation Nation",
     "desc": "An app that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
     "image": "animation",
-    "category": "android",
+    "category": "backend",
     "links": {
       "view": "",
       "code": "https://github.com/SaiSamarth123/Animation-Nation/tree/master"
