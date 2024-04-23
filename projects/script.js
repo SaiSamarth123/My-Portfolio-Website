@@ -39,50 +39,58 @@ function getProjects() {
       return data;
     });
 }
+
 function showProjects(projects) {
   let projectsContainer = document.querySelector(".work .box-container");
   let projectsHTML = "";
-  projects.forEach((project) => {
-    // Join categories to create a class string
-    const categoryClasses = project.category
-      .map((cat) => cat.toLowerCase().replace(/\s+/g, "-"))
-      .join(" ");
 
-    projectsHTML += `
-        <div class="grid-item ${categoryClasses}">
-        <div class="box tilt" style="width: 380px; margin: 1rem">
-          <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="${project.name}" /> 
-          <div class="content">
-            <div class="tag">
-              <h3>${project.name}</h3>
+  projects.forEach((project) => {
+    if (Array.isArray(project.category)) {
+      project.category.forEach((category) => {
+        projectsHTML += `
+          <div class="grid-item ${category}">
+            <div class="box tilt" style="width: 380px; margin: 1rem">
+              <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+              <div class="content">
+                <div class="tag">
+                  <h3>${project.name}</h3>
+                </div>
+                <div class="desc">
+                  <p>${project.desc}</p>
+                  <div class="btns">
+                    <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="desc">
-              <p>${project.desc}</p>
-              <div class="btns">
-                <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                <a href="${project.links.code}" class="btn" target="_blank"><i class="fas fa-code"></i> Code</a>
+          </div>`;
+      });
+    } else {
+      projectsHTML += `
+        <div class="grid-item ${project.category}">
+          <div class="box tilt" style="width: 380px; margin: 1rem">
+            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+            <div class="content">
+              <div class="tag">
+                <h3>${project.name}</h3>
+              </div>
+              <div class="desc">
+                <p>${project.desc}</p>
+                <div class="btns">
+                  <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                  <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>`;
+        </div>`;
+    }
   });
+
   projectsContainer.innerHTML = projectsHTML;
 
-  // Isotope needs to reinitialize after content update
-  var $grid = $(".box-container").isotope({
-    itemSelector: ".grid-item",
-    layoutMode: "fitRows",
-  });
-
-  // Refresh Isotope layout after new projects are loaded
-  $grid.isotope("reloadItems").isotope();
-
-  // Filter items when filter button is clicked
-  $(".filter-btn").on("click", function () {
-    var filterValue = $(this).attr("data-filter");
-    $grid.isotope({ filter: filterValue });
-  });
+  // Add the rest of your existing code for tilt.js, ScrollReveal animation, and isotope filter products here
 }
 
 // function showProjects(projects) {
