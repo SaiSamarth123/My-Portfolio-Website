@@ -273,11 +273,10 @@ header .navbar ul li a:hover {
     /* Align items to the start of the cross axis */
     gap: 1.5rem;
     /* Adjust the gap to your preference */
-    padding: 0;
-    /* Make sure there is no padding throwing off the centering */
-    margin: auto;
-    /* Center the container */
-    /* width: fit-content; */
+    margin: 2rem auto;
+    /* Vertical margin for spacing, auto for horizontal centering */
+    max-width: calc(30rem * 3 + 1.5rem * 2);
+    /* for 3 boxes, and 2 gaps */
     /* Adjust the width based on the children's width */
 }
 
