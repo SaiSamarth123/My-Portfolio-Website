@@ -101,143 +101,143 @@ function getProjects() {
 //   });
 // }
 
-// function showProjects(projects) {
-//   let projectsContainer = document.querySelector(".work .box-container");
-//   let projectsHTML = "";
-//   let uniqueProjects = new Set(); // Set to store unique project names
-
-//   projects.forEach((project) => {
-//     if (!uniqueProjects.has(project.name)) {
-//       uniqueProjects.add(project.name);
-
-//       let categories = Array.isArray(project.category)
-//         ? project.category
-//         : [project.category];
-
-//       let projectCategories = categories.filter(
-//         (category, index) => categories.indexOf(category) === index
-//       );
-
-//       projectCategories.forEach((category) => {
-//         projectsHTML += `
-//           <div class="grid-item ${category}">
-//             <div class="box tilt" style="width: 380px; margin: 1rem">
-//               <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-//               <div class="content">
-//                 <div class="tag">
-//                   <h3>${project.name}</h3>
-//                 </div>
-//                 <div class="desc">
-//                   <p>${project.desc}</p>
-//                   <div class="btns">
-//                     <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-//                     <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>`;
-//       });
-//     }
-//   });
-
-//   projectsContainer.innerHTML = projectsHTML;
-
-//   // isotope filter products
-//   var $grid = $(".box-container").isotope({
-//     itemSelector: ".grid-item",
-//     layoutMode: "fitRows",
-//     masonry: {
-//       columnWidth: ".grid-item",
-//     },
-//   });
-
-//   // filter items on button click
-//   $(".button-group").on("click", "button", function () {
-//     $(".button-group").find(".is-checked").removeClass("is-checked");
-//     $(this).addClass("is-checked");
-//     var filterValue = $(this).attr("data-filter");
-
-//     $grid.isotope({
-//       filter: function () {
-//         if (filterValue === "*") {
-//           return true; // Show all projects when "All Projects" filter is selected
-//         } else {
-//           return $(this).is(filterValue) || $(this).hasClass(filterValue);
-//         }
-//       },
-//     });
-//   });
-// }
-
 function showProjects(projects) {
   let projectsContainer = document.querySelector(".work .box-container");
   let projectsHTML = "";
-
-  // Use a map to track unique projects and their categories
-  let projectMap = new Map();
+  let uniqueProjects = new Set(); // Set to store unique project names
 
   projects.forEach((project) => {
-    // Check if the project is already added to the map
-    if (!projectMap.has(project.name)) {
-      projectMap.set(project.name, {
-        ...project,
-        category: Array.isArray(project.category)
-          ? project.category
-          : [project.category],
-      });
-    } else {
-      // If the project is already in the map, add new categories to the existing ones
-      let existingProject = projectMap.get(project.name);
-      let updatedCategories = existingProject.category.concat(project.category);
-      // Make sure the categories are unique
-      updatedCategories = [...new Set(updatedCategories)];
-      projectMap.set(project.name, {
-        ...existingProject,
-        category: updatedCategories,
+    if (!uniqueProjects.has(project.name)) {
+      uniqueProjects.add(project.name);
+
+      let categories = Array.isArray(project.category)
+        ? project.category
+        : [project.category];
+
+      let projectCategories = categories.filter(
+        (category, index) => categories.indexOf(category) === index
+      );
+
+      projectCategories.forEach((category) => {
+        projectsHTML += `
+          <div class="grid-item ${category}">
+            <div class="box tilt" style="width: 380px; margin: 1rem">
+              <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+              <div class="content">
+                <div class="tag">
+                  <h3>${project.name}</h3>
+                </div>
+                <div class="desc">
+                  <p>${project.desc}</p>
+                  <div class="btns">
+                    <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>`;
       });
     }
   });
 
-  // Generate HTML for each project
-        projectCategories.forEach((category) => {
-          projectsHTML += `
-            <div class="grid-item ${category}">
-              <div class="box tilt" style="width: 380px; margin: 1rem">
-                <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-                <div class="content">
-                  <div class="tag">
-                    <h3>${project.name}</h3>
-                  </div>
-                  <div class="desc">
-                    <p>${projects.desc}</p>
-                    <div class="btns">
-                      <a href="${projects.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                      <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>;
-        });
-      }
-    });
-
   projectsContainer.innerHTML = projectsHTML;
 
-  // Initialize or reinitialize Isotope
+  // isotope filter products
   var $grid = $(".box-container").isotope({
     itemSelector: ".grid-item",
     layoutMode: "fitRows",
+    masonry: {
+      columnWidth: ".grid-item",
+    },
   });
 
-  // Handle filter button click
+  // filter items on button click
   $(".button-group").on("click", "button", function () {
-    var filterValue = $(this).attr("data-filter").replace("category-", "");
-    filterValue = filterValue === "*" ? "*" : `.${filterValue}`;
-    $grid.isotope({ filter: filterValue });
+    $(".button-group").find(".is-checked").removeClass("is-checked");
+    $(this).addClass("is-checked");
+    var filterValue = $(this).attr("data-filter");
+
+    $grid.isotope({
+      filter: function () {
+        if (filterValue === "*") {
+          return true; // Show all projects when "All Projects" filter is selected
+        } else {
+          return $(this).is(filterValue) || $(this).hasClass(filterValue);
+        }
+      },
+    });
   });
 }
+
+// function showProjects(projects) {
+//   let projectsContainer = document.querySelector(".work .box-container");
+//   let projectsHTML = "";
+
+//   // Use a map to track unique projects and their categories
+//   let projectMap = new Map();
+
+//   projects.forEach((project) => {
+//     // Check if the project is already added to the map
+//     if (!projectMap.has(project.name)) {
+//       projectMap.set(project.name, {
+//         ...project,
+//         category: Array.isArray(project.category)
+//           ? project.category
+//           : [project.category],
+//       });
+//     } else {
+//       // If the project is already in the map, add new categories to the existing ones
+//       let existingProject = projectMap.get(project.name);
+//       let updatedCategories = existingProject.category.concat(project.category);
+//       // Make sure the categories are unique
+//       updatedCategories = [...new Set(updatedCategories)];
+//       projectMap.set(project.name, {
+//         ...existingProject,
+//         category: updatedCategories,
+//       });
+//     }
+//   });
+
+//   // Generate HTML for each project
+//         projectCategories.forEach((category) => {
+//           projectsHTML += `
+//             <div class="grid-item ${category}">
+//               <div class="box tilt" style="width: 380px; margin: 1rem">
+//                 <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+//                 <div class="content">
+//                   <div class="tag">
+//                     <h3>${project.name}</h3>
+//                   </div>
+//                   <div class="desc">
+//                     <p>${projects.desc}</p>
+//                     <div class="btns">
+//                       <a href="${projects.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+//                       <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>;
+//         });
+//       }
+//     });
+
+//   projectsContainer.innerHTML = projectsHTML;
+
+//   // Initialize or reinitialize Isotope
+//   var $grid = $(".box-container").isotope({
+//     itemSelector: ".grid-item",
+//     layoutMode: "fitRows",
+//   });
+
+//   // Handle filter button click
+//   $(".button-group").on("click", "button", function () {
+//     var filterValue = $(this).attr("data-filter").replace("category-", "");
+//     filterValue = filterValue === "*" ? "*" : `.${filterValue}`;
+//     $grid.isotope({ filter: filterValue });
+//   });
+// }
 
 getProjects().then((data) => {
   showProjects(data);
