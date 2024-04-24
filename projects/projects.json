@@ -1,16 +1,5 @@
 [
   {
-    "name": "Lyrics Search App",
-    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
-    "image": "lyrics",
-    "category": "fullstack",
-    "links": {
-      "view": "https://neon-buttercream-342040.netlify.app/",
-      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
-    }
-  },
-
-  {
     "name": "Nearby",
     "desc": "Developing a mobile application that helps users see the history and facts of any place they're in.",
     "image": "nearby",
@@ -21,15 +10,16 @@
     }
   },
     {
-    "name": "Soccer Filtering System",
-    "desc": "Developed a tool to enable users to filter soccer matches by teams, players and leagues using APIs",
-    "image": "soccer",
-    "category": "backend",
+    "name": "MusicFusion",
+    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
+    "image": "music",
+    "category": "fullstack",
     "links": {
       "view": "",
-      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+      "code": "https://github.com/SaiSamarth123/Music-Platform"
     }
   },
+
   {
     "name": "BeatLabs",
     "desc": "Creating a web application that helps musicians convert voice to musical instrumentals.",
@@ -70,17 +60,27 @@
       "code": "https://github.com/SaiSamarth123/AI-Movie-Pitch.git"
     }
   },
-  {
-    "name": "MusicFusion",
-    "desc": "Full-Stack music platform allowing accesss to SoundCloud and Spotify. Made using React.js, Redux, Node.js, Express.js, and MongoDB",
-    "image": "music",
+    {
+    "name": "Lyrics Search App",
+    "desc": "Developed a dynamic Lyrics Search App using ReactJS and Bootstrap, fetching real-time data from the Musicxmatch API.",
+    "image": "lyrics",
     "category": "fullstack",
     "links": {
-      "view": "",
-      "code": "https://github.com/SaiSamarth123/Music-Platform"
+      "view": "https://neon-buttercream-342040.netlify.app/",
+      "code": "https://github.com/SaiSamarth123/Lyrics-Search-React"
     }
   },
 
+    {
+    "name": "Soccer Filtering System",
+    "desc": "Developed a webapp to enable users to filter soccer matches by teams, players and leagues using APIs",
+    "image": "soccer",
+    "category": "backend",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/Soccer-Filtering"
+    }
+  },
   {
     "name": "Animation Nation",
     "desc": "A mobile application that gives the user a list of animations to choose from. Each item chosen will use a unique screen transition animation to a second screen that simulates Android Fragments",
