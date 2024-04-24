@@ -200,28 +200,28 @@ function showProjects(projects) {
   });
 
   // Generate HTML for each project
-  projectMap.forEach((project) => {
-    // Create a class string for the categories
-    let categoryClasses = project.category
-      .map((cat) => `category-${cat.trim().toLowerCase().replace(/\s+/g, "-")}`)
-      .join(" ");
-    projectsHTML += `
-      <div class="grid-item ${categoryClasses}" style="width: 380px; margin: 1rem">
-        <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="${project.name}" />
-        <div class="content">
-          <div class="tag">
-            <h3>${project.name}</h3>
-          </div>
-          <div class="desc">
-            <p>${project.desc}</p>
-            <div class="btns">
-              <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>`;
-  });
+        projectCategories.forEach((category) => {
+          projectsHTML += `
+            <div class="grid-item ${category}">
+              <div class="box tilt" style="width: 380px; margin: 1rem">
+                <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+                <div class="content">
+                  <div class="tag">
+                    <h3>${project.name}</h3>
+                  </div>
+                  <div class="desc">
+                    <p>${projects.desc}</p>
+                    <div class="btns">
+                      <a href="${projects.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                      <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>;
+        });
+      }
+    });
 
   projectsContainer.innerHTML = projectsHTML;
 
