@@ -1,18 +1,78 @@
 [
-    {
-    "name": "WellDesk",
-    "desc": "A Chrome extension to enhance productivity and well-being for desk workers by using AI to generate personalized reminders for posture, breaks, and productivity tips.",
-    "image": "welldesk",
+   {
+    "name": "Future Finance",
+    "desc": "Predicts Google's stock price from historical data, and showcases deep learning(LSTM-based RNN) in financial forecasting",
+    "image": "future-finance",
     "category": "ai",
     "links": {
       "view": "",
-      "code": "https://github.com/SaiSamarth123/WellDesk.git"
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Algorithms_and_Models/Recurrent-Neural-Network"
+    }
+  },
+ {
+    "name": "Banking Insights",
+    "desc": "Developed an artificial neural network (ANN) to predict bank customer churn using historical profile and banking activity data.",
+    "image": "banking",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Algorithms_and_Models/Artificial-Neural-Network"
+    }
+  },
+  {
+    "name": "Pac-Man Master",
+    "desc": "Trained an agent on visual inputs to master Pac-Man, strategizing based on pixel data representations.",
+    "image": "pacman",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Algorithms_and_Models/Convolutional_Q_Learning"
+    }
+  },
+    {
+    "name": "Autopilot",
+    "desc": "Trained an autonomous car to navigate complex traffic scenarios in a simulation without human intervention.",
+    "image": "autopilot",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Projects/Self-Driving-Car-DQLearning"
+    }
+  },
+  {
+    "name": "Movie Magic",
+    "desc": "Built a movie recommendation system using collaborative filtering in PyTorch to predict user preferences from past interactions.",
+    "image": "mm",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Projects/Recommendation_System(Pytorch)"
+    }
+  },
+  {
+    "name": "Fraud Detector",
+    "desc": "Trained an autoencoder on normal credit card transactions to detect fraud by flagging transactions with high reconstruction errors as potentially fraudulent.",
+    "image": "auto-encoder",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Projects/Fraud_Detector"
+    }
+  },
+    {
+    "name": "LSTM Chatbot",
+    "desc": "A chatbot that uses LSTM neural networks trained on preprocessed conversation data to dynamically respond to user inputs",
+    "image": "lstm",
+    "category": "ai",
+    "links": {
+      "view": "",
+      "code": "https://github.com/SaiSamarth123/AI-Deep-Learning-Projects/tree/main/Projects/NLP_Chatbots"
     }
   },
     {
     "name": "WellDesk",
     "desc": "A Chrome extension to enhance productivity and well-being for desk workers by using AI to generate personalized reminders for posture, breaks, and productivity tips.",
-    "image": "nearby",
+    "image": "welldesk",
     "category": "ai",
     "links": {
       "view": "",
